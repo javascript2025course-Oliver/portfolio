@@ -219,3 +219,37 @@ nav a.active {
 .glass-card:hover .project-img {
   transform: scale(1.05);
 }
+
+/* ---------- SKILLS PAGE ---------- */
+.skills-section {
+  margin-top: 140px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  color: #7afcff;
+  margin-bottom: 0.5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.skill-list {
+  list-style: none;
+  margin-top: 1rem;
+  color: #dcdcdc;
+  line-height: 1.7;
+}
+
+.skill-list li::before {
+  content: "• ";
+  color: #00eaff;
+  font-weight: bold;
+}
